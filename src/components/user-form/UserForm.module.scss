@@ -1,0 +1,30 @@
+.form_1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.form_2 {
+    h2 {
+        font-weight: bold;
+    }
+    .user_interestring_row {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: rgba($color: #000000, $alpha: .04);
+        padding: 15px 10px;
+        border-radius: 16px;
+        .user_interestring_row_wrapper {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            .checkbox {
+                padding: 5px 15px;
+                border-radius: 16px;
+                background: rgba($color: #000000, $alpha: .04)
+            }
+        }
+    }
+}
