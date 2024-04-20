@@ -19,7 +19,7 @@ export function Profile() {
 		<Loader /> ) : (
 			<>
 			<div className={s.header_logo}>
-				<img src="oggetto-dark-theme-logo.png" alt="" />
+				<img src="/oggetto-dark-theme-logo.png" alt="" />
 			</div>
 			<div className={s.header_username}>	
 				<p>{data?.user.name}</p>

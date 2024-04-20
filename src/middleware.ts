@@ -12,13 +12,12 @@ export async function middleware(request: NextRequest, response: NextResponse) {
 	const isAdmin = userRoles?.includes('ADMIN')
 	 
 
-	console.log(request)
-	 if (request.nextUrl.pathname.startsWith("/admin-panel")
-		&& !isAdmin) {
-		return NextResponse.rewrite(
-				new URL("/not-found", request.url)
+	if (request.nextUrl.pathname.startsWith("/lk/admin")
+	&& !isAdmin) {
+	return NextResponse.rewrite(
+			new URL("/not-found", request.url)
 		)
-}
+	}	
 
 
 	const isAuthPage = url.includes('/auth')
@@ -39,5 +38,5 @@ export async function middleware(request: NextRequest, response: NextResponse) {
 }
 
 export const config = {
-	matcher: ['/', '/lk/:path*', '/auth/:path', '/admin-panel']
+	matcher: ['/', '/lk/:path*', '/auth/:path', '/admin']
 } //описываем какие пути публичные а какие закрытые

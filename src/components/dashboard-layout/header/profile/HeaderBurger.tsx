@@ -8,7 +8,7 @@ const HeaderBurger = () => (
         <Menu>
             <MenuButton><MenuIcon /></MenuButton>
             <MenuList marginTop="10px" color="#444">
-                <MenuItem as='a' href='#'>
+                <MenuItem as='a' href='/profile'>
                     Профиль
                 </MenuItem>
                 <MenuItem as='a' href='#'>

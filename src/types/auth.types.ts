@@ -8,7 +8,12 @@ export interface IUser {
 	name?: string
 	email: string
 	roles: Array<any>
+	age?: number
 	value: any
+    city?: string
+    dateOfBirth?: string
+    gender?: string
+	hobbies?: string[]
 }
 
 export interface IAuthResponse {
