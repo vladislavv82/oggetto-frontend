@@ -32,23 +32,23 @@ export function UserForm2() {
             <div className={s.user_interestring_row}>
             <h2>Творчество</h2>
                 <div className={s.user_interestring_row_wrapper}>
-                    <Checkbox className={s.checkbox} colorScheme="yellow">
-                        Фотографии
+                    <Checkbox className={s.checkbox} iconColor="white" colorScheme="yellow">
+                        Фотографии <span className={s.emoji}>&#128248;</span>
                     </Checkbox>
                     <Checkbox className={s.checkbox} colorScheme="yellow">
-                        Рукоделие
+                        Рукоделие <span className={s.emoji}>&#129525;</span>
                     </Checkbox>
                     <Checkbox className={s.checkbox} colorScheme="yellow">
-                        Танцы
+                        Танцы <span className={s.emoji}>&#128131;</span>
                     </Checkbox>
                     <Checkbox className={s.checkbox} colorScheme="yellow">
-                        Пение
+                        Пение <span className={s.emoji}>&#127908;</span>
                     </Checkbox>
                     <Checkbox className={s.checkbox} colorScheme="yellow">
-                        Музыка
+                        Музыка <span className={s.emoji}>&#127911;</span>
                     </Checkbox>
                     <Checkbox className={s.checkbox} colorScheme="yellow">
-                        Рисование
+                        Рисование <span className={s.emoji}>&#128397;</span>
                     </Checkbox>
                 </div>
             </div>
@@ -59,22 +59,22 @@ export function UserForm2() {
             <h2>Образ жизни</h2>
                <div className={s.user_interestring_row_wrapper}>
                     <Checkbox className={s.checkbox}>
-                        Бег
+                        Бег<span className={s.emoji}>&#127939;</span>
                     </Checkbox>
                     <Checkbox className={s.checkbox} colorScheme="yellow">
-                        Фитнес
+                        Фитнес<span className={s.emoji}>&#129496;</span>
                     </Checkbox>
                     <Checkbox className={s.checkbox} colorScheme="yellow">
-                        Велосипед
+                        Велосипед<span className={s.emoji}>&#128692;</span>
                     </Checkbox>
                     <Checkbox className={s.checkbox} colorScheme="yellow">
-                        Скейтборд
+                        Плавание<span className={s.emoji}>&#127946;</span>
                     </Checkbox>
                     <Checkbox className={s.checkbox} colorScheme="yellow">
-                        Самокат
+                        Единоборства <span className={s.emoji}>	&#129340;</span>
                     </Checkbox>
                     <Checkbox className={s.checkbox}  colorScheme="yellow">
-                        Единоборства
+                        Сон<span className={s.emoji}>&#128716;</span>
                     </Checkbox>
                </div>
             </div>
@@ -83,23 +83,23 @@ export function UserForm2() {
             <div className={s.user_interestring_row}>
             <h2>Еда и напитки</h2>
                 <div className={s.user_interestring_row_wrapper}>
-                <Checkbox className={s.checkbox} colorScheme="yellow">
-                    Пицца
+                <Checkbox className={s.checkbox}  colorScheme="yellow">
+                    Пицца<span className={s.emoji}>&#127829;</span>
                 </Checkbox>
                 <Checkbox className={s.checkbox} colorScheme="yellow">
-                    Суши
+                    Суши<span className={s.emoji}>&#127833;</span>
                 </Checkbox>
                 <Checkbox className={s.checkbox} colorScheme="yellow">
-                    Бургеры
+                    Бургеры<span className={s.emoji}>&#127828;</span>
                 </Checkbox>
                 <Checkbox className={s.checkbox} colorScheme="yellow">
-                    Домашняя еда
+                    Домашняя еда<span className={s.emoji}>&#127858;</span>
                 </Checkbox>
                 <Checkbox className={s.checkbox} colorScheme="yellow">
-                    Кофе
+                    Кофе<span className={s.emoji}>&#9749;</span>
                 </Checkbox>
                 <Checkbox className={s.checkbox} colorScheme="yellow">
-                    Чай
+                    Чай<span className={s.emoji}>&#127861;</span>
                 </Checkbox>
                 </div>
             </div>
@@ -109,22 +109,22 @@ export function UserForm2() {
             <h2>Фильмы и сериалы</h2>
                 <div className={s.user_interestring_row_wrapper}>
                 <Checkbox className={s.checkbox} colorScheme="yellow">
-                    Комедии
+                    Комедии<span className={s.emoji}>&#128541;</span>
                 </Checkbox>
                 <Checkbox className={s.checkbox} colorScheme="yellow">
-                    Ужасы
+                    Ужасы<span className={s.emoji}>&#128123;</span>
                 </Checkbox>
                 <Checkbox className={s.checkbox} colorScheme="yellow">
-                    Мелодрамы
+                    Мелодрамы<span className={s.emoji}>&#128557;</span>
                 </Checkbox>
                 <Checkbox className={s.checkbox} colorScheme="yellow">
-                    Боевики
+                    Боевики<span className={s.emoji}>&#128526;</span>
                 </Checkbox>
                 <Checkbox className={s.checkbox} colorScheme="yellow">
-                    Фэнтази
+                    Фэнтази<span className={s.emoji}>&#128125;</span>
                 </Checkbox>
                 <Checkbox className={s.checkbox} colorScheme="yellow">
-                    Мультфильмы
+                    Мультфильмы<span className={s.emoji}>&#128513;</span>
                 </Checkbox>
                 </div>
             </div>
