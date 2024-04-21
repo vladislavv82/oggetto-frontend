@@ -11,7 +11,7 @@ export function Sidebar() {
 	return (
 		<aside className={s.sidebar}>
 			<div className={s.sidebar_wrapper}>
-				<Link href='/lk/home' className={s.sidebar_logo}>
+				<Link href='/lk/about' className={s.sidebar_logo}>
 					<img src="/oggetto-dark-theme-logo.png" alt="" />
 				</Link>
 				<p>

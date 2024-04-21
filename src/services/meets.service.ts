@@ -19,10 +19,14 @@ class MeetsService {
 		return response.data
 	}
 
-	async update(data: IMeets) {
-		const response = await axiosWithAuth.put(this.BASE_URL, data)
-		return response.data
-	}	
+    async updateStatus(id: string, status: string) {
+        try {
+            const response = await axiosWithAuth.put(`/meets/${id}`, { status });
+            return response.data;
+        } catch (error) {
+            throw new Error(`Не удалось обновить статус встречи`);
+        }
+    }
 	
 	  async deleteUser(id: string) {
 		const response = await axiosWithAuth.delete(`${this.BASE_URL}/${id}`)

@@ -19,7 +19,7 @@ export function Profile() {
 			{isLoading ? (
 		<Loader /> ) : (
 			<>
-			<Link href='/lk/home' className={s.header_logo}>
+			<Link href='/lk/about' className={s.header_logo}>
 				<img src="/oggetto-dark-theme-logo.png" alt="" />
 			</Link>
 			<div className={s.header_username}>	

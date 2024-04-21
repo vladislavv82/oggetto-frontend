@@ -2,8 +2,7 @@
 
 class DASHBOARD {
 	private root = '/lk'
-
-	HOME = `${this.root}/home`
+	
 	MEETS = `${this.root}/meets`
 	ABOUT = `/about`
 	PROFILE = `${this.root}/profile`
