@@ -12,7 +12,9 @@ export default function DashboardLayout({
 			<Sidebar />
 			<main>
 				<Header />
-				{children}
+				<div className={s.dashboard_children}>
+					{children}
+				</div>
 			</main>
 		</div>
 	)

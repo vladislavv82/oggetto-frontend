@@ -14,15 +14,5 @@ export const MENU: IMenuItem[] = [
 		icon: Coffee,
 		link: DASHBOARD_PAGES.MEETS,
 		name: 'Встречи'
-	},
-	{
-		icon: Presentation,
-		link: DASHBOARD_PAGES.ABOUT,
-		name: 'О проекте'
-	},
-	{
-		icon: Settings,
-		link: DASHBOARD_PAGES.SETTINGS,
-		name: 'Настройки'
 	}
 ]

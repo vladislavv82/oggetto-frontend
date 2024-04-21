@@ -16,6 +16,12 @@ export interface IUser {
 	hobbies?: string[]
 }
 
+export interface IMeets{
+	id: number
+	createdAt?: Date
+	title?: string
+}
+
 export interface IAuthResponse {
 	accessToken: string
 	user: IUser

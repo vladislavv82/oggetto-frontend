@@ -4,11 +4,10 @@ class DASHBOARD {
 	private root = '/lk'
 
 	HOME = `${this.root}/home`
+	MEETS = `${this.root}/meets`
 	ABOUT = `/about`
 	PROFILE = `${this.root}/profile`
-	MEETS = `${this.root}/meets`
-	SETTINGS = `${this.root}/settings`
-
+	ADMIN_USERS = `${this.root}/admin`
 }
 
 export const DASHBOARD_PAGES = new DASHBOARD()

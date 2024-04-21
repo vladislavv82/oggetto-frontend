@@ -49,16 +49,18 @@ export function UserForm1() {
 	return (
         <form onSubmit={handleSubmit(onSubmit)} className={s.form_1}>
 
-            <Input {...register('name')} placeholder='Имя' size='md' />
-            <Input {...register('city')} placeholder='Город' size='md' />
-            <Input {...register('dateOfBirth')} placeholder='' size='md' type='date' />
-            
-            <RadioGroup onChange={setValue} value={value}>
-                <Stack direction='row'>
-                    <Radio {...register('gender')} value='male'>М</Radio>
-                    <Radio {...register('gender')} value='female'>Ж</Radio>
-                </Stack>
-            </RadioGroup>
+            <div className={s.first_form}>
+                <Input {...register('name')} placeholder='Имя' size='md' />
+                <Input {...register('city')} placeholder='Город' size='md' />
+                <Input {...register('dateOfBirth')} placeholder='' size='md' type='date' />
+                
+                <RadioGroup onChange={setValue} value={value}>
+                    <Stack direction='row'>
+                        <Radio {...register('gender')} value='male'>М</Radio>
+                        <Radio {...register('gender')} value='female'>Ж</Radio>
+                    </Stack>
+                </RadioGroup>
+            </div>
             
             <Stack spacing={10} direction="column">
     
@@ -161,7 +163,7 @@ export function UserForm1() {
                 </Checkbox>
                 </div>
             </div>
-            <CustomButton type="submit" onClick={() => setIsForm(true)}>Отправить</CustomButton>
+            <CustomButton type="submit" onClick={() => setIsForm(true)}>Сохранить</CustomButton>
             </Stack>
         </form>
 	)

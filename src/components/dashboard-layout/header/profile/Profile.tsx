@@ -7,6 +7,7 @@ import Loader from '@/components/ui/Loader'
 import { useProfile } from '@/hooks/useProfile'
 import { LogoutButton } from '../../sidebar/LogoutButton'
 import  HeaderBurger  from './HeaderBurger'
+import Link from 'next/link'
 
 export function Profile() {
 	const { data, isLoading } = useProfile()
@@ -18,11 +19,10 @@ export function Profile() {
 			{isLoading ? (
 		<Loader /> ) : (
 			<>
-			<div className={s.header_logo}>
+			<Link href='/lk/home' className={s.header_logo}>
 				<img src="/oggetto-dark-theme-logo.png" alt="" />
-			</div>
+			</Link>
 			<div className={s.header_username}>	
-				<p>{data?.user.name}</p>
 				<p>{data?.user.email}</p>
 			</div>
 			<div className={s.header_burger}>

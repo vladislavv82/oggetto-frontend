@@ -28,6 +28,17 @@ class UserService {
 		const response = await axiosWithAuth.get('/user/profile/all')
 		return response.data
 	}
+
+	async getAllMeets() {
+		const response = await axiosWithAuth.get('/meets/all-meets')
+		return response.data
+	}	
+	
+	async deleteUser(id: string) {
+		const response = await axiosWithAuth.delete(`${this.BASE_URL}/${id}`)
+		return response.data
+	}
+	
 }
 
 export const userService = new UserService()
